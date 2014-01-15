@@ -4,7 +4,7 @@
 
     Version:      1.6.3
     Date:         23/12/2013
-    GitHub:       https://github.com/greenc/CookieMaster
+    GitHub:       https://github.com/llbit/CookieMaster
     Dependencies: Cookie Clicker, jQuery
     Author:       Chris Green
                   c.robert.green@gmail.com

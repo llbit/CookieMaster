@@ -19,8 +19,10 @@ module.exports = function(grunt) {
 		 */
 		copy: {
 			main: {
-				src: 'src/bookmarklet.js',
-				dest: 'build/bookmarklet.js',
+				files: [
+					{expand: true, src: ['assets/*'], dest: 'build/'},
+					{src: 'src/bookmarklet.js', dest: 'build/bookmarklet.js'}
+				]
 			},
 		},
 		/**
@@ -79,27 +81,27 @@ module.exports = function(grunt) {
 				replacements: [
 					{
 						from: '../cookiemaster/assets/gc.mp3',
-						to: '//rawgithub.com/greenc/CookieMaster/master/assets/gc.mp3'
+						to: '//cm.llbit.se/assets/gc.mp3'
 					},
 					{
 						from: '../cookiemaster/assets/sp.mp3',
-						to: '//rawgithub.com/greenc/CookieMaster/master/assets/sp.mp3'
+						to: '//cm.llbit.se/assets/sp.mp3'
 					},
 					{
 						from: '../cookiemaster/src/external-methods.js',
-						to: '//rawgithub.com/greenc/CookieMaster/master/build/external-methods.min.js'
+						to: '//cm.llbit.se/external-methods.min.js'
 					},
 					{
 						from: '../cookiemaster/src/cookiemaster.js',
-						to: '//rawgithub.com/greenc/CookieMaster/master/build/cookiemaster.min.js'
+						to: '//cm.llbit.se/cookiemaster.min.js'
 					},
 					{
 						from: '../cookiemaster/src/cookiemaster.css',
-						to: '//rawgithub.com/greenc/CookieMaster/master/build/cookiemaster.min.css'
+						to: '//cm.llbit.se/cookiemaster.min.css'
 					},
 					{
 						from: '../cookiemaster/src/cm-bootstrap.js',
-						to: '//rawgithub.com/greenc/CookieMaster/master/build/cm-bootstrap.min.js'
+						to: '//cm.llbit.se/cm-bootstrap.min.js'
 					}
 				]
 			},
