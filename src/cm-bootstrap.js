@@ -28,7 +28,7 @@ if(typeof CM === 'undefined') {
 
 	(function() {
 
-		var version = '1.6.3',
+		var version = '1.6.5',
 			cmcss   = document.createElement('link'),
 			jquery  = document.createElement('script'),
 			jsapi   = document.createElement('script'),
