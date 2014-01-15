@@ -2,7 +2,7 @@
 
     CookieMaster - A Cookie Clicker plugin
 
-    Version:      1.6.4
+    Version:      1.6.5
     Date:         2014-01-15
     GitHub:       https://github.com/llbit/CookieMaster
     Dependencies: Cookie Clicker, jQuery

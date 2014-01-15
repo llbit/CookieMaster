@@ -1,5 +1,13 @@
 # CookieMaster Release History
 
+### Version 1.6.5 - _2014-01-15_
+
+ - Fixed shortening of large numbers so that trailing zeroes are shown
+
+### Version 1.6.3 - _2014-01-15_
+
+ - Hosted on cm.llbit.se
+
 ### Version 1.6.3 - _2013/12/14_
 
  - Fixed typo that prevented Reindeer audio alert from playing (oops!)
