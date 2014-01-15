@@ -7,3 +7,9 @@ node_modules
 
 # JSHint settings
 .jshintrc
+
+# Vim
+*.swp
+
+# Build
+/build
